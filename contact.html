@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Kim Arnold | Lightstone Consulting</title>
+<meta name="description" content="Contact Kim Arnold for advisory, fractional, interim, project-based, or senior executive leadership opportunities." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Contact Kim Arnold | Lightstone Consulting" />
+<meta property="og:description" content="Contact Kim Arnold for advisory, fractional, interim, project-based, or senior executive leadership opportunities." />
+<meta property="og:url" content="https://lightstoneconsulting.net/contact.html" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://lightstoneconsulting.net/contact.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Lightstone Consulting LLC", "url": "https://lightstoneconsulting.net/", "description": "Executive advisory practice helping organizations build operating models, governance, accountability, leadership alignment, and execution discipline.", "founder": {"@type": "Person", "name": "Kim Arnold", "jobTitle": "Enterprise Transformation and Business Operations Executive", "sameAs": ["https://www.linkedin.com/in/kimberly-m-arnold/"]}, "areaServed": "United States"}</script>
+</head>
+<body>
+<header><nav class="wrap" aria-label="Main navigation">
+<a class="brand" href="index.html"><span class="mark"><span></span></span>Lightstone</a>
+<div class="links">
+<a href="about.html">About</a><a href="experience.html">Experience</a><a href="capabilities.html">Capabilities</a><a href="insights.html">Insights</a><a href="contact.html">Contact</a>
+</div></nav></header>
+
+<main><section class="hero" style="min-height:75vh"><div class="beacon" aria-hidden="true"></div><div class="wrap hero-inner"><div class="hero-logo"><span class="mark"><span></span></span> Lightstone Consulting</div><div class="eyebrow">Contact</div><h1>Need the business to work better?</h1><p>Lightstone is available for advisory, fractional, interim, and project-based engagements. Kim is also open to senior executive leadership opportunities where her operating experience can help an organization scale.</p><div class="hero-actions"><a class="btn btn-primary" href="mailto:kim@lightstoneconsulting.net?subject=Lightstone Consulting Inquiry">Email Kim</a><a class="btn btn-outline" href="https://www.linkedin.com/in/kimberly-m-arnold/" target="_blank" rel="noopener">LinkedIn</a></div></div></section></main>
+
+<footer><div class="wrap"><span>© 2026 Lightstone Consulting LLC. All rights reserved.</span><span>Bradenton, Florida • lightstoneconsulting.net</span></div></footer>
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.org');
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    cards.forEach(card => {
+      card.classList.toggle('hidden', filter !== 'all' && card.dataset.cat !== filter);
+    });
+  });
+});
+</script>
+</body>
+</html>

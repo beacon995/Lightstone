@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Capabilities | Lightstone Consulting</title>
+<meta name="description" content="Advisory, fractional, interim, and project-based executive support across operations, transformation, customer success, PMO, people, and AI-enabled business operations." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Capabilities | Lightstone Consulting" />
+<meta property="og:description" content="Advisory, fractional, interim, and project-based executive support across operations, transformation, customer success, PMO, people, and AI-enabled business operations." />
+<meta property="og:url" content="https://lightstoneconsulting.net/capabilities.html" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://lightstoneconsulting.net/capabilities.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Lightstone Consulting LLC", "url": "https://lightstoneconsulting.net/", "description": "Executive advisory practice helping organizations build operating models, governance, accountability, leadership alignment, and execution discipline.", "founder": {"@type": "Person", "name": "Kim Arnold", "jobTitle": "Enterprise Transformation and Business Operations Executive", "sameAs": ["https://www.linkedin.com/in/kimberly-m-arnold/"]}, "areaServed": "United States"}</script>
+</head>
+<body>
+<header><nav class="wrap" aria-label="Main navigation">
+<a class="brand" href="index.html"><span class="mark"><span></span></span>Lightstone</a>
+<div class="links">
+<a href="about.html">About</a><a href="experience.html">Experience</a><a href="capabilities.html">Capabilities</a><a href="insights.html">Insights</a><a href="contact.html">Contact</a>
+</div></nav></header>
+
+<main><section class="hero" style="min-height:70vh"><div class="beacon" aria-hidden="true"></div><div class="wrap hero-inner"><div class="hero-logo"><span class="mark"><span></span></span> Lightstone Consulting</div><div class="eyebrow">Capabilities</div><h1>Capabilities are the mechanism. Clarity is the product.</h1><p>Lightstone supports advisory, fractional, interim, and project-based work where executive operations meet transformation and execution.</p></div></section>
+<section class="capabilities"><div class="wrap"><div class="intro"><div class="eyebrow">How Lightstone Helps</div><h2>Built around executive operating work, not generic consulting categories.</h2></div><div class="cap-grid">
+<article class="cap"><div class="label">01</div><h3>Executive Operations</h3><p>Chief of Staff support, operating cadence, governance, decision frameworks, executive reporting, and leadership alignment.</p></article>
+<article class="cap"><div class="label">02</div><h3>Transformation & PMO</h3><p>PMO design, portfolio governance, stage-gate discipline, transformation execution, and cross-functional operating models.</p></article>
+<article class="cap"><div class="label">03</div><h3>Customer Success & Growth</h3><p>Customer lifecycle, retention strategy, escalation governance, Voice of Customer, and executive business review discipline.</p></article>
+<article class="cap"><div class="label">04</div><h3>People & Organizational Scale</h3><p>Role clarity, workforce planning, leadership alignment, executive communications, change leadership, and culture architecture.</p></article>
+<article class="cap"><div class="label">05</div><h3>AI-Enabled Operations</h3><p>Workflow redesign, executive research, decision support, knowledge synthesis, and practical AI adoption governance.</p></article>
+<article class="cap"><div class="label">06</div><h3>Fractional & Interim Leadership</h3><p>Senior executive capacity for organizations that need traction now before hiring permanent leadership.</p></article>
+</div></div></section></main>
+
+<footer><div class="wrap"><span>© 2026 Lightstone Consulting LLC. All rights reserved.</span><span>Bradenton, Florida • lightstoneconsulting.net</span></div></footer>
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.org');
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    cards.forEach(card => {
+      card.classList.toggle('hidden', filter !== 'all' && card.dataset.cat !== filter);
+    });
+  });
+});
+</script>
+</body>
+</html>
